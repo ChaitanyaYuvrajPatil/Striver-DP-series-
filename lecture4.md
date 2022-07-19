@@ -42,7 +42,7 @@ int frogJump(int n, vector<int> &heights,int k)
 
 int main() {
 
-  vector<int> height{30,10,60 , 10 , 60 , 50};
+  vector<int> height = {30,10,60 , 10 , 60 , 50};
   int n=height.size();
   int k=2;
   vector<int> dp(n,-1);
@@ -80,7 +80,7 @@ int frogJump(int n, vector<int> &heights,int k)
 
 int main() {
 
-  vector<int> height{30,10,60 , 10 , 60 , 50};
+  vector<int> height = {30,10,60 , 10 , 60 , 50};
   int n=height.size();
   int k=2;
   vector<int> dp(n,-1);
