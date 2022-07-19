@@ -1,6 +1,6 @@
 # Leacture 4
 
-Problem : Frog Jump with k Distances
+Problem : Frog Jump with k Distances (code studio)
 
 ## 1) Using Memoization
 - Create dp array of size n+1.
