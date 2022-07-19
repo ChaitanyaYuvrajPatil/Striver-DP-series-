@@ -1,6 +1,6 @@
 # Leacture 5
 
-Problem : Maximum Sum of Non-Adjacent Elements
+Problem : Maximum Sum of Non-Adjacent Elements (code studio)
 
 ## 1) Using Memoization
 - Create dp array of size n.
