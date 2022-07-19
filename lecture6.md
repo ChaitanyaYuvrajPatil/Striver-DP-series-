@@ -1,6 +1,6 @@
 # Leacture 6
 
-Problem : House Robber II
+Problem : House Robber II (code studio)
 
 ## 1) Space Optimize Solution
 - logic of function same as L5 solution
