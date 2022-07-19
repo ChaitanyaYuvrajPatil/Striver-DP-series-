@@ -1,6 +1,6 @@
 # Leacture 3
 
-Problem : Frog Jump
+Problem : Frog Jump (Code Studio)
 
 ## 1) Using Memoization
 - Create dp array of size n+1.
