@@ -1,6 +1,6 @@
 # Leacture 2
 
-Problem : Climbing Stairs 
+Problem : Climbing Stairs (Code Studio)
 
 ## 1) Using Memoization
 <!-- - Create dp array of size n+1
