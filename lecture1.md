@@ -1,6 +1,6 @@
 # Leacture 1
 
-Problem : fibonacci series 
+Problem : fibonacci series (Code Studio)
 
 ## 1) Using Memoization
 - Create dp array of size n+1
