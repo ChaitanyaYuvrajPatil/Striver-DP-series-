@@ -74,7 +74,7 @@ int frogJump(int n, vector<int> &heights)
 ## 2) Space Optimization
 - Declare prev1 and prev2 as 0.
 - Calculate left and right.
-- Change value of prev2 and prev2 and prev2 to curr.
+- Change value of prev2 and prev1 and prev1 to curr.
 - return value of prev1.
 
 ```C++
