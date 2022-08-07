@@ -12,7 +12,7 @@ Problem link : https://bit.ly/3t62bqQ
 ```C++
 int fun(int ind, int target, vector<int>& arr, vector<vector<int>> &dp){
     if(ind == 0) {
-        if(target == 0 && arr[ind] == 0) return 1;
+        if(target == 0 && arr[ind] == 0) return 2;
         if(target == 0 || arr[ind] == target) return 1;
         return 0;
     }
