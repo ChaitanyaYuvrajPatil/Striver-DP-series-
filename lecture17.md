@@ -49,9 +49,10 @@ int findWays(vector<int> &num, int tar)
     int n = num.size();
     vector<vector<int>> dp(n,vector<int>(tar+1,0));
     
-    for(int i=0;i<n;i++)
-        dp[i][0] = 1;
-    if(num[0] <= tar) dp[0][num[0]] = 1;
+    if(num[0] == 0) dp[0][0] = 2;
+    else dp[0][0] = 1;
+    
+    if(num[0] != 0 && num[0] <= tar) dp[0][num[0]] =1;
     
     for(int ind=1;ind<n;ind++)
     {
