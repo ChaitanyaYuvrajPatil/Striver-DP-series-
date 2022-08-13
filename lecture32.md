@@ -125,7 +125,7 @@ int numDistinct(string s, string t) {
 }
 ```
 
-## 4) 1-D Optimization
+## 4) 1-D Space Optimization
 
 ```C++
 int numDistinct(string s, string t) {
