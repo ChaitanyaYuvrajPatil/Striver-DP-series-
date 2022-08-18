@@ -4,7 +4,11 @@ Problem : Longest Increasing Subsequence (Code Studio)
 Problem link : https://bit.ly/3rVoIoq
 
 ## 1) Binary Search
-- Simple take or not take approch.
+- In this solution we first store first element in temp array.
+- Running loop from 1 to n.
+- if arr[i] is greater than last element in temp we do temp.push_back(arr[i]);
+- Else we find index of lower bound of arr[i] and put arr[i] at that index.
+- Finally return size of temp array.
 
 ```C++
 #include<bits/stdc++.h>
@@ -27,6 +31,6 @@ int longestIncreasingSubsequence(int arr[], int n)
             temp[ind] = arr[i];
         }
     }
-    return len;
+    return len; //temp.size();
 }
 ```
