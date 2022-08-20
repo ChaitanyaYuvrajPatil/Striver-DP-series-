@@ -1,4 +1,4 @@
-# Leacture 41
+# Leacture 44
 Problem : Divisible Set (Code Studio)
 
 Problem link : https://bit.ly/3rON1Ef
