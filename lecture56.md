@@ -4,9 +4,15 @@ Problem :  Count Square Submatrices with all Ones (Code Studio)
 
 Problem link : https://bit.ly/3tYAUY7
 
-- 
 
 ## 2) Using Tabulation
+
+- In this problem we are finding number of square contain only one.
+- First we create the dp grid of size same as given array.
+- We fill first row and column same as given array.
+- Then we simply traverse lop from 1 to n and 1 to m. If if(arr[i][j]==0) then put dp[i][j]=0.
+- Else put dp[i][j] = min(dp[i-1][j-1], min(dp[i-1][j], dp[i][j-1])) + 1.
+- Finally return sum of all element in dp grid.
 
 ```C++
 int countSquares(int n, int m, vector<vector<int>> &arr) {
